@@ -2,3 +2,5 @@
 *.xml
 *.json
 *.sqlite
+
+hidden.py
