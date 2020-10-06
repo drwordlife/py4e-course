@@ -1,12 +1,12 @@
 import urllib.request, urllib.parse, urllib.error
 import json
 import ssl
+import hidden
 
 # If you have a Google Places API key, enter it here
 # api_key = 'AIzaSy___IDByT70'
 # https://developers.google.com/maps/documentation/geocoding/intro
-# api_key = 'AIzaSyD2gvqIpea-J8U-AfKrdBOEdYVs0xVCLEw'
-api_key = False
+api_key = hidden.google_api_key()
 
 if api_key is False:
     api_key = 42
